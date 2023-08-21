@@ -8,6 +8,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
+
 st.write("## Intro to NLP: Predicting Disaster Tweets using Bag of Words")
 
 st.write("""
